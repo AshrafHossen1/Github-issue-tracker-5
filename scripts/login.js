@@ -8,7 +8,7 @@ signInBtn.addEventListener("click", () => {
     // Get the pass input
     const pass = document.getElementById("pass-input");
     const passInput = pass.value;
-    console.log("Pin:", passInput);
+    console.log("Pin:", passInput); 
     
     // condional statement
     if(userInput == "admin" && passInput == "admin123") {
